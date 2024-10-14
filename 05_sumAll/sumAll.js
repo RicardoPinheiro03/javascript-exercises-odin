@@ -13,9 +13,7 @@ const sumAll = function(arg1, arg2) {
     /**
      * Check if the arguments are real integers (IN > 0) and if the type of the arguments are integers.
      */
-    if(arg1 < 0 || arg2 < 0 || !Number.isInteger(arg1) || !Number.isInteger(arg2) ) {
-        return 'ERROR'; 
-    }
+    if( arg1 < 0 || arg2 < 0 || !Number.isInteger(arg1) || !Number.isInteger(arg2) ) return 'ERROR';
 
     /**
      * If the first argument is bigger than the second one, reverse the while loop.
