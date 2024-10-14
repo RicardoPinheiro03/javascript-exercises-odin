@@ -1,5 +1,5 @@
-const removeFromArray = function() {
+const removeFromArray = function(noArray, ...args) {
+    return noArray.filter(val => !args.includes(val));
 };
 
-// Do not edit below this line
 module.exports = removeFromArray;
