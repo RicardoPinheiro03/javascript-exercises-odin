@@ -14,5 +14,10 @@ function reverseString(str) {
     return str.split("").reverse().join("");
 }
 
+/**
+ * Missing converting the original string to lowercase.
+ */
+
+
 // Do not edit below this line
 module.exports = palindromes;
